@@ -1,0 +1,54 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/slick-slider.css");
+@import url("components/animated-text.css");
+@import url("components/text-rotate.css");
+
+
+
+
+/* General style rules for fonts and colors */
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin: 0px;
+    background-color: wheat;
+    line-height: 1.6; /* Espacement entre les lignes pour une meilleure lisibilité */
+    font-size: 20px; /* Taille de police de base */
+    color: #333;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+@keyframes rainbow {
+    0% { color: #FF0000; }
+    25% { color: #FF7F00; }
+    50% { color: #FFFF00; }
+    75% { color: #00FF00; }
+    100% { color: #FF0000; }
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+a {
+    text-decoration: none;
+}
+
+.slick-slider {
+    width: 80%;
+    margin: 0 auto;
+}
+
